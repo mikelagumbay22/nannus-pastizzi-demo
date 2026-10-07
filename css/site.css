@@ -125,7 +125,7 @@ a[href^="tel:"] { white-space: nowrap; }
   background: #fff4d6; color: #7a4f00; border: 1px dashed #d9a640; border-radius: 6px; padding: .05em .4em;
   font: 600 .82em/1.5 var(--font-body); font-style: normal; box-decoration-break: clone; -webkit-box-decoration-break: clone;
 }
-.media .stock-badge {
+.media .image-badge {
   position: absolute; right: .75rem; bottom: .75rem; z-index: 2; margin: 0; max-width: calc(100% - 1.5rem);
   text-transform: none; letter-spacing: .01em; font-size: .78rem; border-style: solid; text-align: right;
   box-shadow: 0 2px 8px rgba(22, 30, 42, .18);
@@ -190,7 +190,7 @@ a[href^="tel:"] { white-space: nowrap; }
 .hero__inner { padding-block: clamp(2rem, 6vw, 3rem) 1.5rem; }
 .hero__media { width: min(100% - 2.5rem, var(--container)); margin: 0 auto 2.5rem; }
 .media--hero { aspect-ratio: 16 / 10; border-radius: var(--radius-lg); }
-.media--hero .stock-badge { top: .75rem; bottom: auto; }
+.media--hero .image-badge { top: .75rem; bottom: auto; }
 .hero__copy { max-width: 36rem; }
 .hero .lead { max-width: 34rem; }
 .hero__call { margin: 1.1rem 0 0; }
@@ -395,7 +395,7 @@ a[href^="tel:"] { white-space: nowrap; }
   .media--hero img { object-position: var(--focus, 72% 60%); }
   .hero__media::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
     background: linear-gradient(90deg, color-mix(in srgb, var(--color-bg) 92%, transparent) 0%, color-mix(in srgb, var(--color-bg) 80%, transparent) 38%, transparent 62%); }
-  .media--hero .stock-badge { top: auto; bottom: 1.25rem; right: 1.5rem; }
+  .media--hero .image-badge { top: auto; bottom: 1.25rem; right: 1.5rem; }
   .hero__inner { position: relative; z-index: 2; align-self: center; padding-block: 4rem; }
   .hero__copy { max-width: 33rem; }
   .teaser-grid { grid-template-columns: 1.05fr .95fr; gap: 4rem; }
